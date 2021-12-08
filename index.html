@@ -1,0 +1,94 @@
+<html> 
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+ <title>Гид по интернету</title> 
+  
+  <meta name="Keywords" content="Ссылки, электроника, личная страница">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <style>
+    body {background: url("index/fon.jpg");}
+    a:link {color: #0000CC;}
+    a:visited {color: #0000CC;}
+   .button a {font: bold 14px Verdana, Arial, sans-serif; text-decoration: none; color: #3399FF; background: url("index/button.png");display: block; width: 100px; height: 33px; line-height: 33px;}
+   .button a:hover {background-position: 0px -33px; text-decoration: none; color: #003366;}
+   
+   .footer{ position:absolute; bottom:1px; left:0px; line-height:16px; height:16px; width:100%;}
+   .descr{display:none;}
+   .footer:hover .descr{display:block; position:absolute; bottom:1px;  width:100%;}
+  </style>
+  <script type="text/javascript">
+
+   function showTime()
+                      {var dat = new Date();
+                       var H = '' + dat.getHours();
+                       H = H.length<2 ? '0' + H:H;
+                       var M = '' + dat.getMinutes();
+                       M = M.length<2 ? '0' + M:M;
+                       var S = '' + dat.getSeconds();
+                       S =S.length<2 ? '0' + S:S;
+                       var clock = H + ':' + M + ':' + S;
+                        document
+                         .getElementById('time_div')
+                          .innerHTML=clock;
+                           setTimeout(showTime,1000);}
+  </script>
+ </head>
+<body> 
+<div style="height:48px; width:100%;">
+ <div style="float: left; ">
+  <img src="index/logo.png" alt="Логотип сайта" width="510" height="48"/>
+ </div>
+ <div id="time_div" style="line-height:48px; float: right; height:48px; width: 150px; font-size:20pt;color:#9999FF;font-weight:600;font-family:Verdana; text-shadow: 0px 0px 5px #000000, 0px 0px 10px #000000, 0px 0px 15px #FFFFFF, 0px 0px 20px #FFFFFF;">
+  <script type="text/javascript">
+   showTime();
+  </script>
+ </div>
+</div>
+<div style=" width:100%; margin:0;float:left;">
+ <div style="margin:0; text-align:left; float:left; width:100px;">
+  <div class="button" align="center"><a href="main.html" target="window1">Главная</a></div>
+  <div class="button" align="center"><a href="e-link.html" target="window1">Ссылки</a></div> 
+  <div class="button" align="center"><a href="http://192.168.1.1" target="window1">Роутер</a></div>
+  <div class="button" align="center"><a href="color.html" target="window1">Цвета</a></div>
+  <div class="button" align="center"><a href="smd.html" target="window1">SMD</a></div>
+  <div class="button" align="center"><a href="resistor.html" target="window1">Резистор</a></div>
+  <div class="button" align="center"><a href="credit.php" target="window1">Кредит</a></div>
+ </div>
+
+ <div style="">
+<iframe src="main.html" name="window1" frameborder="0" noresize width="90%"height="80%">Ваш браузер не поддерживает плавающие фреймы!</iframe>
+ </div>
+ </div>
+ 
+<div class="footer">
+ <div style="text-align:center; color:#FFFFFF">
+  Страница написана Скориковым Д.В.
+ </div>
+ <div class="descr">
+  <div style="text-align:center;  border:1px #000099 solid; color:#000099; background:#FFFFFF;">
+   Самое нужное.<br>
+        <img src="e-link\rgups.png" alt="Картинка" width="16" height="16">
+     <a href="http://www.rgups.ru/" title="РГУПС."target="blank">РГУПС</a>
+   <img src="index\fotostrana.png"alt="Картинка"width="16"height="16">
+   <a href="https://fotostrana.ru/"title="" target="blank">Фотострана</a>
+   <img src="e-link\vk.png"alt="Картинка"width="16"height="16">
+   <a href="http://vk.com/"title="" target="blank">ВКонтакте</a>
+   <img src="e-link\ok.png"alt="Картинка"width="16"height="16">
+   <a href="http://ok.ru/"title="" target="blank">Одноклассники</a>
+   <img src="index\mail.png"alt="Картинка"width="16"height="16"> 
+   <a href="https://mail.ru/"title="" target="blank">Mail.ru</a>
+   <img src="e-link\sberbank.png"alt="Картинка"width="16"height="16"> 
+   <a href="https://online.sberbank.ru/CSAFront/index.do"title="" target="blank">Сбербанк он-лайн</a>
+   <img src="index\fotostrana.png"alt="Картинка"width="16"height="16">
+   <a href="http://www.mamba.ru/"title="" target="blank">Мамба</a>
+   <img src="index\fotostrana.png"alt="Картинка"width="16"height="16">
+   <a href="http://rzd.ru/"title="" target="blank">РЖД</a> 
+  </div>
+ </div>
+</div>
+</body>   
+
+
+
+  
+ </html>
